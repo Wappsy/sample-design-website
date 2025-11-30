@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Design for Your Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-logo">
+                <a href="index.html">DESIGN FOR YOUR HOME</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/gallery-5.jpg') center/cover no-repeat;">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Explore our collection of beautifully designed spaces</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter-section">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="kitchen">Kitchen</button>
+                <button class="filter-btn" data-filter="bedroom">Bedroom</button>
+                <button class="filter-btn" data-filter="living">Living Room</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery -->
+    <section class="portfolio-gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item" data-category="living residential">
+                    <img src="images/gallery-1.jpg" alt="Modern Living Room">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Modern Minimalist Living</h3>
+                            <p>Residential • Living Room</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item" data-category="living commercial">
+                    <img src="images/gallery-2.jpg" alt="Contemporary Living Space">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Contemporary Elegance</h3>
+                            <p>Commercial • Living Space</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item" data-category="living residential">
+                    <img src="images/gallery-3.jpg" alt="Luxury Living Room">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Luxury Living</h3>
+                            <p>Residential • Living Room</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item" data-category="kitchen residential">
+                    <img src="images/gallery-4.jpg" alt="Modern Kitchen Design">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Modern Kitchen Design</h3>
+                            <p>Residential • Kitchen</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item" data-category="living residential">
+                    <img src="images/gallery-5.jpg" alt="Sophisticated Interior">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Sophisticated Interior</h3>
+                            <p>Residential • Living Room</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item" data-category="kitchen residential">
+                    <img src="images/gallery-6.jpg" alt="Contemporary Kitchen">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Contemporary Kitchen</h3>
+                            <p>Residential • Kitchen</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 7 -->
+                <div class="gallery-item" data-category="bedroom residential">
+                    <img src="images/gallery-7.jpg" alt="Serene Master Suite">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Serene Master Suite</h3>
+                            <p>Residential • Bedroom</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 8 -->
+                <div class="gallery-item" data-category="commercial">
+                    <img src="images/gallery-8.jpg" alt="Modern Office Space">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Modern Office Space</h3>
+                            <p>Commercial • Workspace</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 9 -->
+                <div class="gallery-item" data-category="residential">
+                    <img src="images/gallery-9.jpg" alt="Elegant Dining">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Elegant Dining Space</h3>
+                            <p>Residential • Dining</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 10 -->
+                <div class="gallery-item" data-category="bedroom residential">
+                    <img src="images/gallery-10.jpg" alt="Cozy Bedroom Design">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Cozy Bedroom Design</h3>
+                            <p>Residential • Bedroom</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 11 -->
+                <div class="gallery-item" data-category="living residential">
+                    <img src="images/gallery-11.jpg" alt="Warm Living Space">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Warm Living Space</h3>
+                            <p>Residential • Living Room</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 12 -->
+                <div class="gallery-item" data-category="commercial">
+                    <img src="images/gallery-12.jpg" alt="Commercial Interior">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Commercial Interior</h3>
+                            <p>Commercial • Office</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Create Your Dream Space?</h2>
+            <p>Let's bring your vision to life</p>
+            <a href="contact.html" class="btn-primary">Start Your Project</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Design for Your Home</h3>
+                    <p>Creating timeless interiors that inspire and delight.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>Email: info@designforyourhome.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Instagram</a>
+                        <a href="#">Pinterest</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Design for Your Home. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
